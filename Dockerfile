@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Arne Neumann <nlpbox.programming@arne.cl>
+MAINTAINER Daniel Scarnecchia <scarnecchia@gmail.com>
 
 RUN apt-get update -y && \
     apt-get install -y git wget dtrx openjdk-8-jre python-pycurl
